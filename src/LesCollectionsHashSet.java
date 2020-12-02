@@ -4,6 +4,7 @@ public class LesCollectionsHashSet {
 
     public static void main(String[] args) {
 
+        //exercice 13
         HashSet<String> lesMois = new HashSet<String>();
         lesMois.add("Janvier");
         lesMois.add("Fevrier");
@@ -19,20 +20,24 @@ public class LesCollectionsHashSet {
         lesMois.add("December");
 
         //exercice 14
-
-        System.out.println(lesMois);
-
-        //exercice 15
         lesMois.add("newElement");
         System.out.println(lesMois);
 
-        //exercice 16
+        //exercice 15
         for (String list: lesMois){
             System.out.println(list);
         }
 
-        //exercice 19
+        //exercice 16
+        System.out.println(lesMois.size());
+
+        //exercice 17-18
+        lesMois.clear();
         System.out.println(lesMois);
+
+
+        //exercice 19
+        System.out.println(lesMois.size());
 
     }
 }
