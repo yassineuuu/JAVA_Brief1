@@ -61,17 +61,20 @@ public class LesFontions {
 
     }
 
-//    // exercice 8
-//    public int exercice8 (int Par1, int Par2, int Par3){
-//        return (Par1 + Par2 + Par3);
-//
-//    }
-//    public int exercice8 (int Par1, int Par2){
-//        return exercice8( int Par1, int Par, 5);
-//    }
-//    public int exercice8 (int Par1){
-//        return exercice8( int Par1, 3);
-//    }
+    // exercice 8
+    static int exercice8 (int Par1, int Par2, int Par3){
+        return (Par1 + Par2 + Par3);
+
+    }
+    static int exercice8 (int Par1, int Par2){
+        return exercice8( Par1, Par2, 5);
+    }
+    static int exercice8 (int Par1){
+        return exercice8( Par1, 3);
+    }
+    static int exercice8 (){
+        return exercice8( 2);
+    }
 
 
 
@@ -85,6 +88,6 @@ public class LesFontions {
         System.out.println(exercice5("My age is", 25));
         System.out.println(exercice6("MAKHLOUK", "Yassine", 25));
         System.out.println(exercice7("Homme", 18));
-        System.out.println(exercice8());
+        System.out.println(exercice8(3,8));
     }
 }
