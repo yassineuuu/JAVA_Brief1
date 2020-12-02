@@ -7,10 +7,10 @@ public class LesCollectionHashMaps {
         //exercice 19
         HashMap<String, String> Caracter = new HashMap<String, String>();
 
-        Caracter.put("One Piece", "Zoro");
-        Caracter.put("AOT", "Eren");
-        Caracter.put("HunterXHunter", "Meruem");
-        Caracter.put("Bleach", "Ichigo");
+        Caracter.put("Name", "Zoro");
+        Caracter.put("Anime", "One Piece");
+        Caracter.put("Fruit", "NONE");
+        Caracter.put("Crew", "StrawHats");
 
         System.out.println(Caracter);
 
