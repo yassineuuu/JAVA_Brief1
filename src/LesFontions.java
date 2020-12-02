@@ -88,6 +88,6 @@ public class LesFontions {
         System.out.println(exercice5("My age is", 25));
         System.out.println(exercice6("MAKHLOUK", "Yassine", 25));
         System.out.println(exercice7("Homme", 18));
-        System.out.println(exercice8(3,8));
+        System.out.println(exercice8(1,10));
     }
 }

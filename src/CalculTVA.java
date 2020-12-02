@@ -23,9 +23,9 @@ public class CalculTVA {
             double Remise;
 
             System.out.println("Combien de remise");
-            Remise = remise.nextFloat();
+            Remise = (double) remise.nextFloat();
 
-            double Prix = PrixHt + Remise;
+            double Prix = PrixHt - Remise;
             double TVA = (Prix * 0.2);
 
             double TTC = Prix + TVA;
@@ -37,15 +37,12 @@ public class CalculTVA {
 
             double TTC = Prix + TVA;
             System.out.println("TTC = " + TTC + "DH");
-        } else{
-            System.out.println("Votre reponse est invalid reexecuter le console");
         }
 
 
 
 
 
-        System.out.println();
 
     }
 

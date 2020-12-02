@@ -1,13 +1,14 @@
 public class LesBoucles2 {
     public static void main(String[] args) {
-        int i = 1;
-        int y = 10;
-        while (i<=30){
-            //affisher le resultat
-            System.out.println(i*y);
+        int y;
+        for (int i = 1; i < 30; i++){
+            for (y=2; y<100;y++){
+                int x = i * y;
+                System.out.println(i + " * " + y + " = " + x);
+            }
 
-            // incrementer le 1er variable
-            i++;
+            System.out.println("#####################################");
+            System.out.println();
 
         }
     }
